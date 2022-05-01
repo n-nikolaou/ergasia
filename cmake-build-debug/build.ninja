@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:/Users/nickn/CLionProjects/projectDomwn/cmake-build-debug/
+cmake_ninja_workdir = C$:/Users/nickn/CLionProjects/ergasia/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target projectDomwn
 
@@ -49,8 +49,20 @@ cmake_ninja_workdir = C$:/Users/nickn/CLionProjects/projectDomwn/cmake-build-deb
 
 build cmake_object_order_depends_target_projectDomwn: phony || CMakeFiles/projectDomwn.dir
 
-build CMakeFiles/projectDomwn.dir/main.cpp.obj: CXX_COMPILER__projectDomwn_Debug C$:/Users/nickn/CLionProjects/projectDomwn/main.cpp || cmake_object_order_depends_target_projectDomwn
+build CMakeFiles/projectDomwn.dir/main.cpp.obj: CXX_COMPILER__projectDomwn_Debug C$:/Users/nickn/CLionProjects/ergasia/main.cpp || cmake_object_order_depends_target_projectDomwn
   DEP_FILE = CMakeFiles\projectDomwn.dir\main.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\projectDomwn.dir
+  OBJECT_FILE_DIR = CMakeFiles\projectDomwn.dir
+
+build CMakeFiles/projectDomwn.dir/Pair.cpp.obj: CXX_COMPILER__projectDomwn_Debug C$:/Users/nickn/CLionProjects/ergasia/Pair.cpp || cmake_object_order_depends_target_projectDomwn
+  DEP_FILE = CMakeFiles\projectDomwn.dir\Pair.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\projectDomwn.dir
+  OBJECT_FILE_DIR = CMakeFiles\projectDomwn.dir
+
+build CMakeFiles/projectDomwn.dir/unorderedTable.cpp.obj: CXX_COMPILER__projectDomwn_Debug C$:/Users/nickn/CLionProjects/ergasia/unorderedTable.cpp || cmake_object_order_depends_target_projectDomwn
+  DEP_FILE = CMakeFiles\projectDomwn.dir\unorderedTable.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\projectDomwn.dir
   OBJECT_FILE_DIR = CMakeFiles\projectDomwn.dir
@@ -63,7 +75,7 @@ build CMakeFiles/projectDomwn.dir/main.cpp.obj: CXX_COMPILER__projectDomwn_Debug
 #############################################
 # Link the executable ..\projectDomwn.exe
 
-build ../projectDomwn.exe: CXX_EXECUTABLE_LINKER__projectDomwn_Debug CMakeFiles/projectDomwn.dir/main.cpp.obj
+build ../projectDomwn.exe: CXX_EXECUTABLE_LINKER__projectDomwn_Debug CMakeFiles/projectDomwn.dir/main.cpp.obj CMakeFiles/projectDomwn.dir/Pair.cpp.obj CMakeFiles/projectDomwn.dir/unorderedTable.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\projectDomwn.dir
@@ -78,7 +90,7 @@ build ../projectDomwn.exe: CXX_EXECUTABLE_LINKER__projectDomwn_Debug CMakeFiles/
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\nickn\CLionProjects\projectDomwn\cmake-build-debug && "E:\Program Files (x86)\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = cmd.exe /C "cd /D C:\Users\nickn\CLionProjects\ergasia\cmake-build-debug && "E:\Program Files (x86)\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -89,7 +101,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cmd.exe /C "cd /D C:\Users\nickn\CLionProjects\projectDomwn\cmake-build-debug && "E:\Program Files (x86)\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\nickn\CLionProjects\projectDomwn -BC:\Users\nickn\CLionProjects\projectDomwn\cmake-build-debug"
+  COMMAND = cmd.exe /C "cd /D C:\Users\nickn\CLionProjects\ergasia\cmake-build-debug && "E:\Program Files (x86)\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -SC:\Users\nickn\CLionProjects\ergasia -BC:\Users\nickn\CLionProjects\ergasia\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -109,7 +121,7 @@ build projectDomwn.exe: phony ../projectDomwn.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/nickn/CLionProjects/projectDomwn/cmake-build-debug
+# Folder: C:/Users/nickn/CLionProjects/ergasia/cmake-build-debug
 
 build all: phony ../projectDomwn.exe
 
