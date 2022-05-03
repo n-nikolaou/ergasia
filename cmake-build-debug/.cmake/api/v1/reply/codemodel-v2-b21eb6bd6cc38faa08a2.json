@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "projectDomwn::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-projectDomwn-Debug-ba0bc0d1872a072d748f.json",
+					"jsonFile" : "target-projectDomwn-Debug-40a62cb106bed24f3ea7.json",
 					"name" : "projectDomwn",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/marga/Documents/Projects/c++/ergasia/cmake-build-debug",
-		"source" : "C:/Users/marga/Documents/Projects/c++/ergasia"
+		"build" : "C:/Users/nickn/CLionProjects/ergasia/cmake-build-debug",
+		"source" : "C:/Users/nickn/CLionProjects/ergasia"
 	},
 	"version" : 
 	{

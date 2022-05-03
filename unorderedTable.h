@@ -27,7 +27,6 @@ public:
 
     long int getPos();
     Pair* get(long int);
-    Pair** getTable();
 };
 
 

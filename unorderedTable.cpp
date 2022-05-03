@@ -1,10 +1,6 @@
-//
-// Created by nickn on 30/4/2022.
-//
-
 #include "unorderedTable.h"
 #include <stdlib.h>
-#include <string.h>\
+#include <string.h>
 
 /* default constructor. there's no overloaded constructors */
 unorderedTable::unorderedTable() {
@@ -63,4 +59,3 @@ void unorderedTable::setPair(Pair *newPair, long int pos) {
 /* GETTERS */
 long int unorderedTable::getPos() {return pos;}
 Pair* unorderedTable::get(long int i) {return table[i];}
-Pair** unorderedTable::getTable() {return table;}
