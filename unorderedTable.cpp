@@ -55,6 +55,12 @@ void unorderedTable::decrease(long int pos)
     }
 }
 
-/* GETTER */
-int unorderedTable::getPos() {return pos;}
+/* SETTER */
+void unorderedTable::setPair(Pair *newPair, long int pos) {
+    table[pos] = newPair;
+}
+
+/* GETTERS */
+long int unorderedTable::getPos() {return pos;}
 Pair* unorderedTable::get(long int i) {return table[i];}
+Pair** unorderedTable::getTable() {return table;}
