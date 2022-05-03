@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.3.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\marga\Documents\Projects\c++\domes
+CMAKE_SOURCE_DIR = C:\Users\marga\Documents\Projects\c++\ergasia
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\marga\Documents\Projects\c++\domes\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\marga\Documents\Projects\c++\ergasia\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\marga\Documents\Projects\c++\domes\cmake-build-debug\CMakeFiles C:\Users\marga\Documents\Projects\c++\domes\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\marga\Documents\Projects\c++\ergasia\cmake-build-debug\CMakeFiles C:\Users\marga\Documents\Projects\c++\ergasia\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\marga\Documents\Projects\c++\domes\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\marga\Documents\Projects\c++\ergasia\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -128,6 +128,30 @@ projectDomwn/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\projectDomwn.dir\build.make CMakeFiles/projectDomwn.dir/build
 .PHONY : projectDomwn/fast
 
+Pair.obj: Pair.cpp.obj
+.PHONY : Pair.obj
+
+# target to build an object file
+Pair.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\projectDomwn.dir\build.make CMakeFiles/projectDomwn.dir/Pair.cpp.obj
+.PHONY : Pair.cpp.obj
+
+Pair.i: Pair.cpp.i
+.PHONY : Pair.i
+
+# target to preprocess a source file
+Pair.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\projectDomwn.dir\build.make CMakeFiles/projectDomwn.dir/Pair.cpp.i
+.PHONY : Pair.cpp.i
+
+Pair.s: Pair.cpp.s
+.PHONY : Pair.s
+
+# target to generate assembly for a file
+Pair.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\projectDomwn.dir\build.make CMakeFiles/projectDomwn.dir/Pair.cpp.s
+.PHONY : Pair.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -152,6 +176,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\projectDomwn.dir\build.make CMakeFiles/projectDomwn.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+unorderedTable.obj: unorderedTable.cpp.obj
+.PHONY : unorderedTable.obj
+
+# target to build an object file
+unorderedTable.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\projectDomwn.dir\build.make CMakeFiles/projectDomwn.dir/unorderedTable.cpp.obj
+.PHONY : unorderedTable.cpp.obj
+
+unorderedTable.i: unorderedTable.cpp.i
+.PHONY : unorderedTable.i
+
+# target to preprocess a source file
+unorderedTable.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\projectDomwn.dir\build.make CMakeFiles/projectDomwn.dir/unorderedTable.cpp.i
+.PHONY : unorderedTable.cpp.i
+
+unorderedTable.s: unorderedTable.cpp.s
+.PHONY : unorderedTable.s
+
+# target to generate assembly for a file
+unorderedTable.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\projectDomwn.dir\build.make CMakeFiles/projectDomwn.dir/unorderedTable.cpp.s
+.PHONY : unorderedTable.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -161,9 +209,15 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... projectDomwn
+	@echo ... Pair.obj
+	@echo ... Pair.i
+	@echo ... Pair.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... unorderedTable.obj
+	@echo ... unorderedTable.i
+	@echo ... unorderedTable.s
 .PHONY : help
 
 

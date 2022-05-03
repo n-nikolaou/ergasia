@@ -105,19 +105,19 @@ unorderedTable fillUnTable(const char *filename)
                      * stringB*/
                     strcpy(tokenString, strcat(strcat(stringA, " "),stringB));
 
-                    /* if the token string doesnt exist in the unordered table, we create a
+                    /* if the token string doesn't exist in the unordered table, we create a
                      * new entry in the unordered table, else we increase the count of
                      * the given string by one*/
                     if (!unTable.findPair(tokenString, pos)) unTable.add(tokenString);
                     else unTable.increase(pos);
-                    /*the 2nd string becomes the 1st so we can repeat the process*/
+                    /*the 2nd string becomes the 1st, so we can repeat the process*/
                     strcpy(stringA, stringB);
                     stringSize = 0;
                 }
             }
         }
         /* each time the read of the sample text ends the last token string will be
-         * a single word alone so we remove it from the table */
+         * a single word alone, so we remove it from the table */
         unTable.decrease(unTable.getPos() - 1);
     }
     return unTable;
@@ -127,7 +127,7 @@ int main() {
     if (openTxt("small-file.txt") == nullptr) return 1;
     else
     {
-        /*COMMENT THE editTxt() BELOW SO YOU DONT HAVE TO WAIT FOR THE FILE TO BE
+        /*COMMENT THE editTxt() BELOW SO YOU DON'T HAVE TO WAIT FOR THE FILE TO BE
          * EDITED EACH TIME YOU DEBUG THE PROGRAM*/
         //editTxt(openTxt("small-file.txt"));
 
