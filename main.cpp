@@ -6,6 +6,7 @@
 #include <chrono>
 
 #include "unorderedTable.h"
+#include "orderedTable.h"
 
 FILE *openTxt(const char *filename)
 {
@@ -132,16 +133,24 @@ int main() {
         //editTxt(openTxt("small-file.txt"));
 
         /*START OF CREATION OF UNORDERED TABLE*/
-        auto start = std::chrono::high_resolution_clock::now(); //start timing the creation of unordered table
+        auto startUn = std::chrono::high_resolution_clock::now(); //start timing the creation of unordered table
         unorderedTable unTable;
         unTable = fillUnTable("edited-sample.txt");
-        auto stop = std::chrono::high_resolution_clock::now(); //stop timing
+        auto stopUn = std::chrono::high_resolution_clock::now(); //stop timing
         /*END OF CREATION OF UNORDERED TABLE*/
-        auto duration = std::chrono::duration_cast<std::chrono::microseconds>(stop - start);
+        auto durationUn = std::chrono::duration_cast<std::chrono::microseconds>(stopUn - startUn);
 
         FILE *output = fopen("output.txt", "w");
         fprintf(output, "%d unique pairs of words.\n", unTable.getPos());
-        fprintf(output, "UnTable created in: %d microseconds.\n", duration.count());
+        fprintf(output, "Unordered Table created in: %d microseconds.\n", durationUn.count());
+
+        auto startOr = std::chrono::high_resolution_clock::now(); //start timing the creation of ordered table
+        orderedTable orTable(unTable);
+        auto stopOr = std::chrono::high_resolution_clock::now(); //stop timing
+        /*END OF CREATION OF ORDERED TABLE*/
+        auto durationOr = std::chrono::duration_cast<std::chrono::microseconds>(stopOr - startOr);
+
+        fprintf(output, "Ordered Table created in: %d microseconds.\n", durationOr.count());
 
         /* FOR DEBUGGING PURPOSES. NOT TO BE INCLUDED IN THE FINAL PROJECT */
         printf("<%s, %d>\n", unTable.get(0)->getToken(), unTable.get(0)->getCount()); //"small-file": should be "the project"

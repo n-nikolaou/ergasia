@@ -176,6 +176,30 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\projectDomwn.dir\build.make CMakeFiles/projectDomwn.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+orderedTable.obj: orderedTable.cpp.obj
+.PHONY : orderedTable.obj
+
+# target to build an object file
+orderedTable.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\projectDomwn.dir\build.make CMakeFiles/projectDomwn.dir/orderedTable.cpp.obj
+.PHONY : orderedTable.cpp.obj
+
+orderedTable.i: orderedTable.cpp.i
+.PHONY : orderedTable.i
+
+# target to preprocess a source file
+orderedTable.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\projectDomwn.dir\build.make CMakeFiles/projectDomwn.dir/orderedTable.cpp.i
+.PHONY : orderedTable.cpp.i
+
+orderedTable.s: orderedTable.cpp.s
+.PHONY : orderedTable.s
+
+# target to generate assembly for a file
+orderedTable.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\projectDomwn.dir\build.make CMakeFiles/projectDomwn.dir/orderedTable.cpp.s
+.PHONY : orderedTable.cpp.s
+
 unorderedTable.obj: unorderedTable.cpp.obj
 .PHONY : unorderedTable.obj
 
@@ -215,6 +239,9 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... orderedTable.obj
+	@echo ... orderedTable.i
+	@echo ... orderedTable.s
 	@echo ... unorderedTable.obj
 	@echo ... unorderedTable.i
 	@echo ... unorderedTable.s

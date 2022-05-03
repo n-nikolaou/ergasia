@@ -6,6 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/projectDomwn.dir/Pair.cpp.obj.d"
   "CMakeFiles/projectDomwn.dir/main.cpp.obj"
   "CMakeFiles/projectDomwn.dir/main.cpp.obj.d"
+  "CMakeFiles/projectDomwn.dir/orderedTable.cpp.obj"
+  "CMakeFiles/projectDomwn.dir/orderedTable.cpp.obj.d"
   "CMakeFiles/projectDomwn.dir/unorderedTable.cpp.obj"
   "CMakeFiles/projectDomwn.dir/unorderedTable.cpp.obj.d"
   "libprojectDomwn.dll.a"

@@ -91,6 +91,12 @@
 		<Unit filename="C:/Users/marga/Documents/Projects/c++/ergasia/main.cpp">
 			<Option target="projectDomwn"/>
 		</Unit>
+		<Unit filename="C:/Users/marga/Documents/Projects/c++/ergasia/orderedTable.cpp">
+			<Option target="projectDomwn"/>
+		</Unit>
+		<Unit filename="C:/Users/marga/Documents/Projects/c++/ergasia/orderedTable.h">
+			<Option target="projectDomwn"/>
+		</Unit>
 		<Unit filename="C:/Users/marga/Documents/Projects/c++/ergasia/unorderedTable.cpp">
 			<Option target="projectDomwn"/>
 		</Unit>
