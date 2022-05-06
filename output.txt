@@ -1,3 +1,0 @@
-101914 unique pairs of words.
-Unordered Table created in: 85782301 microseconds.
-Ordered Table created in: 104444987 microseconds.

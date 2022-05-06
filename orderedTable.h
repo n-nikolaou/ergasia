@@ -5,7 +5,7 @@
 #include "unorderedTable.h"
 
 /* EXPLANATION FOR EACH FUNCTION CAN BE FOUND
- * AT THE IMPLEMENTATION (unorderedTable.cpp) */
+ * AT THE IMPLEMENTATION (orderedTable.cpp) */
 
 class orderedTable {
 protected:

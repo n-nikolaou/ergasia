@@ -61,5 +61,6 @@ bool orderedTable::findPair(char *token, long int &pos) {
     return false;
 }
 
+/* GETTERS */
 long int orderedTable::getPos() {return pos;}
 Pair* orderedTable::get(long int i) {return table[i];}
