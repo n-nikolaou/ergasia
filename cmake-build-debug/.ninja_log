@@ -1,11 +1,12 @@
 # ninja log v5
-3	129	6733162664447070	CMakeFiles/projectDomwn.dir/Pair.cpp.obj	be0a3ded5f7e50f3
+4	307	6735813954707728	CMakeFiles/projectDomwn.dir/main.cpp.obj	80a2acb9d1b4b22b
 133	256	6725316194830030	projectDomwn.exe	e7cb0bc327645b2e
-6	448	6735073594957359	CMakeFiles/projectDomwn.dir/main.cpp.obj	80a2acb9d1b4b22b
-448	806	6735073598847649	../projectDomwn.exe	de719fc2da726fc5
+3	129	6733162664447070	CMakeFiles/projectDomwn.dir/Pair.cpp.obj	be0a3ded5f7e50f3
+4	160	6735825332215092	../projectDomwn.exe	fc1dbde5a9ef9c8b
+35	631	6735719445641942	CMakeFiles/projectDomwn.dir/orderedTable.cpp.obj	bf51d6d2e7b6db60
 13	181	6733199263834606	CMakeFiles/projectDomwn.dir/unorderedTable.cpp.obj	3199e6561871949f
-10	193	6735039387913225	CMakeFiles/projectDomwn.dir/orderedTable.cpp.obj	bf51d6d2e7b6db60
-11	170	6735073592617265	CMakeFiles/projectDomwn.dir/binarySearchTree.cpp.obj	4cae3e875f0a0758
-9	143	6735073750865160	CMakeFiles/projectDomwn.dir/binarySearchTree.cpp.obj	4cae3e875f0a0758
-4	352	6735073752955325	CMakeFiles/projectDomwn.dir/main.cpp.obj	80a2acb9d1b4b22b
-352	532	6735073754625449	../projectDomwn.exe	de719fc2da726fc5
+4	152	6735818976084450	CMakeFiles/projectDomwn.dir/binarySearchTree.cpp.obj	4cae3e875f0a0758
+1	275	6735831122003841	build.ninja	ee6aa2d86d641844
+6	134	6735831124074008	CMakeFiles/projectDomwn.dir/binarySearchTree.cpp.obj	4cae3e875f0a0758
+3	381	6735831126524190	CMakeFiles/projectDomwn.dir/main.cpp.obj	80a2acb9d1b4b22b
+381	564	6735831128184282	../projectDomwn.exe	fc1dbde5a9ef9c8b

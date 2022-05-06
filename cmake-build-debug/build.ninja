@@ -89,6 +89,7 @@ build CMakeFiles/projectDomwn.dir/binarySearchTree.cpp.obj: CXX_COMPILER__projec
 
 build ../projectDomwn.exe: CXX_EXECUTABLE_LINKER__projectDomwn_Debug CMakeFiles/projectDomwn.dir/main.cpp.obj CMakeFiles/projectDomwn.dir/Pair.cpp.obj CMakeFiles/projectDomwn.dir/unorderedTable.cpp.obj CMakeFiles/projectDomwn.dir/orderedTable.cpp.obj CMakeFiles/projectDomwn.dir/binarySearchTree.cpp.obj
   FLAGS = -g
+  LINK_FLAGS = -Wl,--stack,16777216
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\projectDomwn.dir
   POST_BUILD = cd .

@@ -1,0 +1,4 @@
+101914 unique pairs of words.
+Unordered Table created in: 83008363 microseconds.
+Ordered Table created in: 106367074 microseconds.
+Binary Search Tree created in: 78532845 microseconds.

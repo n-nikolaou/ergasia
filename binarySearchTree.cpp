@@ -1,6 +1,5 @@
 #include "binarySearchTree.h"
 #include <string.h>
-#include <cstdio>
 
 /* the default constructor of the class
  * initializing every element with null pointer.
@@ -23,10 +22,7 @@ binarySearchTree::binarySearchTree(Pair *newPair) {
  * either in the left or in the right child if the
  * token either greater or lesser than the token */
 binarySearchTree* binarySearchTree::addPair(binarySearchTree *root, Pair *newPair) {
-    if (root == nullptr) {
-        printf("%s\n", newPair->getToken());
-        return new binarySearchTree(newPair);
-    }
+    if (root == nullptr) return new binarySearchTree(newPair);
     if (strcmp(data->getToken(), newPair->getToken()) < 0) root->setRight(addPair(root->getRight(), newPair));
     else root->setLeft(addPair(root->getLeft(), newPair));
 
