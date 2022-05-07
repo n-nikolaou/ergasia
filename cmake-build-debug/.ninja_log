@@ -1,15 +1,12 @@
 # ninja log v5
-14	162	6730664320748814	CMakeFiles/projectDomwn.dir/Pair.cpp.obj	be0a3ded5f7e50f3
+4	307	6735813954707728	CMakeFiles/projectDomwn.dir/main.cpp.obj	80a2acb9d1b4b22b
 133	256	6725316194830030	projectDomwn.exe	e7cb0bc327645b2e
-3	248	6730668148829008	CMakeFiles/projectDomwn.dir/main.cpp.obj	80a2acb9d1b4b22b
-249	393	6730668150129107	../projectDomwn.exe	8a98e11ab3f46ebd
-11	200	6730664321138821	CMakeFiles/projectDomwn.dir/unorderedTable.cpp.obj	3199e6561871949f
 3	129	6733162664447070	CMakeFiles/projectDomwn.dir/Pair.cpp.obj	be0a3ded5f7e50f3
-10	158	6733162664753329	CMakeFiles/projectDomwn.dir/unorderedTable.cpp.obj	3199e6561871949f
-14	178	6733162664969973	CMakeFiles/projectDomwn.dir/orderedTable.cpp.obj	bf51d6d2e7b6db60
-7	284	6733162666013283	CMakeFiles/projectDomwn.dir/main.cpp.obj	80a2acb9d1b4b22b
-284	642	6733162669480962	../projectDomwn.exe	6fd7cc762bd2e46b
+4	160	6735825332215092	../projectDomwn.exe	fc1dbde5a9ef9c8b
+35	631	6735719445641942	CMakeFiles/projectDomwn.dir/orderedTable.cpp.obj	bf51d6d2e7b6db60
 13	181	6733199263834606	CMakeFiles/projectDomwn.dir/unorderedTable.cpp.obj	3199e6561871949f
-10	261	6733199264524973	CMakeFiles/projectDomwn.dir/orderedTable.cpp.obj	bf51d6d2e7b6db60
-4	339	6733199265371699	CMakeFiles/projectDomwn.dir/main.cpp.obj	80a2acb9d1b4b22b
-339	523	6733199267156130	../projectDomwn.exe	6fd7cc762bd2e46b
+4	152	6735818976084450	CMakeFiles/projectDomwn.dir/binarySearchTree.cpp.obj	4cae3e875f0a0758
+1	275	6735831122003841	build.ninja	ee6aa2d86d641844
+6	134	6735831124074008	CMakeFiles/projectDomwn.dir/binarySearchTree.cpp.obj	4cae3e875f0a0758
+3	381	6735831126524190	CMakeFiles/projectDomwn.dir/main.cpp.obj	80a2acb9d1b4b22b
+381	564	6735831128184282	../projectDomwn.exe	fc1dbde5a9ef9c8b

@@ -7,6 +7,7 @@
 
 #include "unorderedTable.h"
 #include "orderedTable.h"
+#include "binarySearchTree.h"
 
 FILE *openTxt(const char *filename)
 {
@@ -144,6 +145,7 @@ int main() {
         fprintf(output, "%d unique pairs of words.\n", unTable.getPos());
         fprintf(output, "Unordered Table created in: %d microseconds.\n", durationUn.count());
 
+        /*START OF CREATION OF ORDERED TABLE*/
         auto startOr = std::chrono::high_resolution_clock::now(); //start timing the creation of ordered table
         orderedTable orTable(unTable);
         auto stopOr = std::chrono::high_resolution_clock::now(); //stop timing
@@ -151,6 +153,17 @@ int main() {
         auto durationOr = std::chrono::duration_cast<std::chrono::microseconds>(stopOr - startOr);
 
         fprintf(output, "Ordered Table created in: %d microseconds.\n", durationOr.count());
+
+        /*START OF CREATION OF BINARY SEARCH TREE*/
+        auto startBST = std::chrono::high_resolution_clock::now(); //start timing the creation of ordered table
+        binarySearchTree *bsTreeRoot = nullptr;
+        for (long int i = 0; i < unTable.getPos(); i++)
+            bsTreeRoot = bsTreeRoot->addPair(bsTreeRoot, unTable.get(i));
+        auto stopBST = std::chrono::high_resolution_clock::now(); //stop timing
+        /*END OF CREATION OF BINARY SEARCH TREE*/
+        auto durationBST = std::chrono::duration_cast<std::chrono::microseconds>(stopBST - startBST);
+
+        fprintf(output, "Binary Search Tree created in: %d microseconds.\n", durationBST.count());
 
         /* FOR DEBUGGING PURPOSES. NOT TO BE INCLUDED IN THE FINAL PROJECT */
         printf("<%s, %d>\n", unTable.get(0)->getToken(), unTable.get(0)->getCount()); //"small-file": should be "the project"
