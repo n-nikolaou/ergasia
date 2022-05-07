@@ -152,6 +152,30 @@ Pair.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\projectDomwn.dir\build.make CMakeFiles/projectDomwn.dir/Pair.cpp.s
 .PHONY : Pair.cpp.s
 
+binarySearchTree.obj: binarySearchTree.cpp.obj
+.PHONY : binarySearchTree.obj
+
+# target to build an object file
+binarySearchTree.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\projectDomwn.dir\build.make CMakeFiles/projectDomwn.dir/binarySearchTree.cpp.obj
+.PHONY : binarySearchTree.cpp.obj
+
+binarySearchTree.i: binarySearchTree.cpp.i
+.PHONY : binarySearchTree.i
+
+# target to preprocess a source file
+binarySearchTree.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\projectDomwn.dir\build.make CMakeFiles/projectDomwn.dir/binarySearchTree.cpp.i
+.PHONY : binarySearchTree.cpp.i
+
+binarySearchTree.s: binarySearchTree.cpp.s
+.PHONY : binarySearchTree.s
+
+# target to generate assembly for a file
+binarySearchTree.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\projectDomwn.dir\build.make CMakeFiles/projectDomwn.dir/binarySearchTree.cpp.s
+.PHONY : binarySearchTree.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -236,6 +260,9 @@ help:
 	@echo ... Pair.obj
 	@echo ... Pair.i
 	@echo ... Pair.s
+	@echo ... binarySearchTree.obj
+	@echo ... binarySearchTree.i
+	@echo ... binarySearchTree.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
