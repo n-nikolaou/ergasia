@@ -88,6 +88,12 @@
 		<Unit filename="C:/Users/marga/Documents/Projects/c++/ergasia/Pair.h">
 			<Option target="projectDomwn"/>
 		</Unit>
+		<Unit filename="C:/Users/marga/Documents/Projects/c++/ergasia/avlSearchTree.cpp">
+			<Option target="projectDomwn"/>
+		</Unit>
+		<Unit filename="C:/Users/marga/Documents/Projects/c++/ergasia/avlSearchTree.h">
+			<Option target="projectDomwn"/>
+		</Unit>
 		<Unit filename="C:/Users/marga/Documents/Projects/c++/ergasia/binarySearchTree.cpp">
 			<Option target="projectDomwn"/>
 		</Unit>

@@ -4,6 +4,8 @@ file(REMOVE_RECURSE
   "../projectDomwn.pdb"
   "CMakeFiles/projectDomwn.dir/Pair.cpp.obj"
   "CMakeFiles/projectDomwn.dir/Pair.cpp.obj.d"
+  "CMakeFiles/projectDomwn.dir/avlSearchTree.cpp.obj"
+  "CMakeFiles/projectDomwn.dir/avlSearchTree.cpp.obj.d"
   "CMakeFiles/projectDomwn.dir/binarySearchTree.cpp.obj"
   "CMakeFiles/projectDomwn.dir/binarySearchTree.cpp.obj.d"
   "CMakeFiles/projectDomwn.dir/main.cpp.obj"
